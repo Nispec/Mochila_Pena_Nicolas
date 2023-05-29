@@ -1,0 +1,29 @@
+Git Init: Este comando se utiliza para inicializar un nuevo repositorio de Git en un directorio vacío o existente. Crea un nuevo subdirectorio oculto llamado ".git" que contiene la estructura y los archivos necesarios para el control de versiones.
+
+Git Clone: Este comando se utiliza para crear una copia local de un repositorio remoto. Clona un repositorio existente y descarga todos los archivos, historial y ramas al directorio local.
+
+Git Add: Este comando se utiliza para agregar cambios al área de preparación (staging area). Puede usarse para agregar archivos nuevos, modificados o eliminados al área de preparación antes de realizar un commit.
+
+Git Commit: Este comando se utiliza para guardar los cambios realizados en el repositorio. Se toman los cambios del área de preparación y se guarda una nueva instantánea en la historia del repositorio junto con un mensaje descriptivo.
+
+Git Push: Este comando se utiliza para enviar los cambios locales al repositorio remoto. Los commits que aún no se han enviado al repositorio remoto se envían utilizando este comando.
+
+Git Pull: Este comando se utiliza para recuperar y fusionar los cambios más recientes del repositorio remoto en el repositorio local. Combina los cambios remotos en la rama actual.
+
+Git Branch: Este comando se utiliza para administrar ramas en el repositorio. Permite crear nuevas ramas, listar las ramas existentes, eliminar ramas y cambiar entre diferentes ramas.
+
+Git Merge: Este comando se utiliza para fusionar los cambios de una rama específica en la rama actual. Combina los cambios de la rama especificada con la rama actual y crea un nuevo commit que contiene ambos conjuntos de cambios.
+
+Git Status: Este comando se utiliza para obtener el estado actual del repositorio. Muestra información sobre los archivos modificados, agregados y eliminados, así como el estado de la rama actual.
+
+Git Log: Este comando muestra el historial de commits del repositorio. Muestra la lista de commits realizados, incluyendo detalles como el autor, la fecha y el mensaje del commit.
+
+Git Diff: Este comando muestra las diferencias entre los cambios realizados en los archivos del repositorio. Muestra las líneas que han sido agregadas, modificadas o eliminadas desde el último commit.
+
+Git Remote: Este comando permite administrar las conexiones remotas al repositorio. Permite agregar, eliminar y listar los repositorios remotos configurados en el repositorio local.
+
+Git Checkout: Este comando se utiliza para cambiar entre ramas o restaurar archivos en el repositorio. Permite cambiar a una rama existente, crear una nueva rama o deshacer cambios en los archivos.
+
+Git Reset: Este comando se utiliza para deshacer cambios en el repositorio. Puede deshacer los commits realizados y revertir los cambios en los archivos al estado de un commit anterior.
+
+Git Tag: Este comando se utiliza para agregar etiquetas a puntos específicos en el historial del repositorio. Las etiquetas se utilizan para marcar versiones o hitos importantes en el proyecto.
